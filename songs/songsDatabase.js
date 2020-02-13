@@ -27,7 +27,7 @@ const songsDatabase = [
         id: 5,
         title: 'Master Of Puppets',
         artist: 'Metalica',
-        albmum: 'Rage Against The Machine'
+        albmum: 'Master Of Puppets'
     },
     {
         id: 6,
