@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/jagins/node-api4-project#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
