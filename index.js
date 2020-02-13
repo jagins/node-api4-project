@@ -9,7 +9,11 @@ server.use('/api/songs', songRouter);
 
 server.get('/', (req, res) =>
 {
-    res.json({message: 'api is working'});
+    res.json({
+        message: 'Song api is working', 
+        endpoint: '/api/songs', 
+        descrption: 'Custom song API using a static database. You can get all songs or by ID'
+    });
 })
 
 const PORT = process.env.PORT || 5000;
