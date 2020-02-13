@@ -1,4 +1,4 @@
-const songs = [
+const songsDatabase = [
     {
         id: 1,
         title: 'Sharp Dressedman',
@@ -36,3 +36,5 @@ const songs = [
         albmum: 'Parnoid'
     }
 ]
+
+module.exports = songsDatabase;
